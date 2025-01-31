@@ -1,0 +1,14 @@
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Hindrer form fra å sende på vanlig måte
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  if(name && email && message) {
+    alert('Takk for meldingen, ' + name + '! Jeg svarer snart.');
+    document.getElementById('contact-form').reset(); // Tømmer skjemaet etter innsending
+  } else {
+    alert('Vennligst fyll ut alle feltene.');
+  }
+});

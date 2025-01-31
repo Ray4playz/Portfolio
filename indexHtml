@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Min Portefølje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hei, jeg er [Ditt Navn]</h1>
+      <p>Webutvikler, Designer, og Problemløser</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>Om meg</h2>
+      <p>Jeg er en lidenskapelig webutvikler som elsker å lage intuitive og brukervennlige nettsteder. Jeg har erfaring med HTML, CSS, JavaScript, og mer!</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Mine Prosjekter</h2>
+      <div class="project-card">
+        <h3>Prosjekt 1</h3>
+        <p>Beskrivelse av prosjekt 1. <a href="#">Se prosjekt</a></p>
+      </div>
+      <div class="project-card">
+        <h3>Prosjekt 2</h3>
+        <p>Beskrivelse av prosjekt 2. <a href="#">Se prosjekt</a></p>
+      </div>
+      <div class="project-card">
+        <h3>Prosjekt 3</h3>
+        <p>Beskrivelse av prosjekt 3. <a href="#">Se prosjekt</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Kontakt meg</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Navn" id="name" required>
+        <input type="email" placeholder="E-post" id="email" required>
+        <textarea placeholder="Melding" id="message" required></textarea>
+        <button type="submit">Send Melding</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 [Ditt Navn]. Alle rettigheter reservert.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
